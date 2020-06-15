@@ -1,0 +1,29 @@
+#bigGrid{
+    width: 600px;
+    height: 600px;
+
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    gap: 1px 1px;
+    
+    background-color: black;
+    border: solid black 1px;
+    
+    
+}
+
+#reset{
+    margin-bottom: 20px;
+}
+.square{
+    background-color: white;
+    
+
+}
+
+.red{
+    background-color: red;
+}
