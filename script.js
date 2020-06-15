@@ -46,7 +46,6 @@ function resetColor () {
     for(i = 0; i < squarelist.length; i++){
 
         squarelist[i].style.backgroundColor = "white";
-        squarelist[i].style.opacity = "0";
     }
     
 }
